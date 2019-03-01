@@ -1,0 +1,14 @@
+/* Colors */
+$background: #e9ebee;
+$header: #4267b2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background;
+  font-family: sans-serif;
+}
