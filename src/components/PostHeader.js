@@ -1,18 +1,18 @@
 import React from 'react';
 
 const PostHeader = () => (
-  <header className="post-header">
+  <header className="postHeader">
     <div className="container-imgUser">
       <img
-        src="http://www.jdevoto.cl/web/wp-content/uploads/2018/04/default-user-img.jpg"
-        className="img-user"
+        src="https://avatars3.githubusercontent.com/u/42787648?s=460&v=4"
+        className="imgUser"
         alt="User"
       />
     </div>
 
     <div className="informations">
-      <p>Name User</p>
-      <p>há 3min</p>
+      <p className="nameUser">Kássio Silva</p>
+      <p className="timePost">há 3 min</p>
     </div>
   </header>
 );
