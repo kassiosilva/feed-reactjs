@@ -1,7 +1,6 @@
-/* Colors */
 $background: #e9ebee;
 $header: #4267b2;
-$color-title: #ffff;
+$color-white: #ffff;
 
 * {
   margin: 0;
@@ -20,21 +19,58 @@ body {
   text-align: center;
 
   h3 {
-    color: $color-title;
+    color: $color-white;
     font-size: 20px;
   }
 }
 
 .containerPosts {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 30px;
+}
 
-  .post {
-    margin-top: 30px;
-    border: 1px solid black;
-    width: 50%;
+.post {
+  // border: 1px solid black;
+  width: 50%;
+  margin-top: 30px;
+  background-color: $color-white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.23);
+  padding: 20px 0;
+
+  .postText {
+    margin: 0 20px;
+    margin-top: 11px;
+  }
+}
+
+.post-header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin: 0 20px;
+  padding: 11px 0;
+
+  .container-imgUser {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .img-user {
+      width: 100%;
+      min-height: 100%;
+    }
+  }
+
+  .informations {
+    margin-left: 10px;
   }
 }
