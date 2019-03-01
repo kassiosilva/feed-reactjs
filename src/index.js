@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import './styles.scss';
+import Header from './components/Header';
+
+import './styles/styles.scss';
 
 class App extends Component {
   render() {
-    return <h1>Hello World</h1>;
+    // const { titulo } = this.state;
+
+    return <Header />;
   }
 }
 
