@@ -1,17 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import PostHeader from './PostHeader';
 
-const Post = () => (
+const Post = props => (
   <article className="post">
-    <PostHeader />
+    <PostHeader avatar={props.data.avatar} name={props.data.name} time={props.data.time} />
 
-    <p className="post-text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem
-      culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores
-      quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-    </p>
+    <p className="post-text">{props.data.body}</p>
   </article>
 );
+
+Post.propTypes = {
+  data: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    time: PropTypes.string.isRequired,
+    body: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default Post;
