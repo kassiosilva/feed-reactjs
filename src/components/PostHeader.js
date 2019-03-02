@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PostHeader = () => (
-  <header className="postHeader">
+  <header className="post-header">
     <div className="container-imgUser">
       <img
         src="https://avatars3.githubusercontent.com/u/42787648?s=460&v=4"
@@ -11,8 +11,8 @@ const PostHeader = () => (
     </div>
 
     <div className="informations">
-      <p className="nameUser">Kássio Silva</p>
-      <p className="timePost">há 3 min</p>
+      <p className="name-user">Kássio Silva</p>
+      <p className="time-post">há 3 min</p>
     </div>
   </header>
 );

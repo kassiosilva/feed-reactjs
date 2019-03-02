@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 import Header from './Header';
 import Post from './Post';
 
-import '../styles/styles.scss';
+import '../styles/app.scss';
 
 export default class App extends Component {
   render() {
@@ -11,7 +11,7 @@ export default class App extends Component {
       <Fragment>
         <Header />
 
-        <main className="containerPosts">
+        <main className="container-posts">
           <Post />
           <Post />
           <Post />

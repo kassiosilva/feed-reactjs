@@ -1,8 +1,3 @@
-$background: #e9ebee;
-$header: #4267b2;
-$color-white: #ffff;
-$color-name: #666666;
-
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +5,7 @@ $color-name: #666666;
 }
 
 body {
-  background-color: $background;
+  background-color: #e9ebee;
   font-family: sans-serif;
 }
 
@@ -19,15 +14,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 60px;
-  background-color: $header;
+  background-color: #4267b2;
+  border-bottom: #29487d;
 
   h3 {
-    color: $color-white;
+    color: #ffff;
     font-size: 20px;
   }
 }
 
-.containerPosts {
+.container-posts {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,17 +31,17 @@ body {
 }
 
 .post {
-  // border: 1px solid black;
   width: 50%;
   margin-top: 30px;
-  background-color: $color-white;
+  background-color: #ffff;
   border-radius: 5px;
   border: 1px solid #ccc;
   padding: 30px 0;
 
-  .postHeader {
+  .post-header {
     display: flex;
     flex-flow: row wrap;
+    padding-bottom: 15px;
     align-items: center;
     border-bottom: 1px solid #eee;
     margin: 0 20px;
@@ -66,24 +62,26 @@ body {
     }
 
     .informations {
-      margin-left: 10px;
       line-height: 1.3;
+      margin-left: 10px;
 
-      .nameUser {
+      .name-user {
         font-size: 16px;
-        color: $color-name;
+        color: #666666;
         font-weight: bold;
       }
 
-      .timePost {
+      .time-post {
         color: #999999;
         font-size: 14px;
       }
     }
   }
 
-  .postText {
-    margin: 0 20px;
-    margin-top: 11px;
+  .post-text {
+    margin: 15px 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
   }
 }
