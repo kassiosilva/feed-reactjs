@@ -10,16 +10,16 @@ export default class App extends Component {
     posts: [
       {
         id: 1,
-        name: 'Kássio Silva',
-        avatar: 'https://avatars3.githubusercontent.com/u/42787648?s=460&v=4',
+        name: 'Ronaldinho Gaúcho',
+        avatar: 'http://www.brmaisnews.com.br/publicacao/8520/RonaldinhoGaucho.jpg',
         time: 'há 3 min',
         body:
-          'Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis',
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia ex doloremque mollitia illum. Est expedita veritatis vero saepe excepturi ex obcaecati quia, deleniti accusantium, amet nisi, ullam nam tempore!Iste, ipsam necessitatibus, eligendi dolores repudiandae, nihil corrupti nam repellat eveniet ratione doloribus dignissimos? Dolor quasi magni molestias atque libero? Rem, blanditiis recusandae accusamus dolorem eos quam suscipit itaque cumque!',
       },
       {
         id: 2,
-        name: 'Kássio Silva',
-        avatar: 'https://avatars3.githubusercontent.com/u/42787648?s=460&v=4',
+        name: 'Michael Jackson',
+        avatar: 'https://i.scdn.co/image/51dad9aaabe5643818840207a9a8957c2ad91bf2',
         time: 'há 30 min',
         body:
           'Pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum.',
